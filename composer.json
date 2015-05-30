@@ -1,14 +1,26 @@
 {
-    "name": "zendframework/skeleton-application",
-    "description": "Skeleton Application for ZF2",
-    "license": "BSD-3-Clause",
-    "keywords": [
-        "framework",
-        "zf2"
-    ],
-    "homepage": "http://framework.zend.com/",
-    "require": {
-        "php": ">=5.3.3",
-        "zendframework/zendframework": "~2.4"
+  "name": "zendframework/skeleton-application",
+  "description": "Skeleton Application for ZF2",
+  "license": "BSD-3-Clause",
+  "minimum-stability": "dev",
+  "keywords": [
+    "framework",
+    "zf2"
+  ],
+  "homepage": "http://framework.zend.com/",
+  "require": {
+    "php": ">=5.3",
+    "zendframework/zendframework": "~2.4",
+    "old-town/workflow": "dev-dev"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:old-town/old-town-workflow.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:old-town/old-town-propertyset.git"
     }
+  ]
 }
