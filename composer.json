@@ -11,6 +11,7 @@
   "require": {
     "php": ">=5.3",
     "zendframework/zendframework": "~2.4",
+    "old-town/log": "dev-dev",
     "old-town/workflow": "dev-dev"
   },
   "repositories": [
