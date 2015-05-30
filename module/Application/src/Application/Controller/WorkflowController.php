@@ -11,11 +11,17 @@ namespace Application\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
+use OldTown\Workflow\Basic\BasicWorkflow;
 
 class WorkflowController extends AbstractActionController
 {
     public function testAction()
     {
+        $wf = new BasicWorkflow('johndoe');
+        $id = $wf->initialize('holiday', 1, null);
+
+
+
         return new ViewModel();
     }
 }
