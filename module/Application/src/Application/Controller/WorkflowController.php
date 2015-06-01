@@ -18,6 +18,7 @@ class WorkflowController extends AbstractActionController
     public function testAction()
     {
         \OldTown\Workflow\Config\DefaultConfiguration::addDefaultPathToConfig(__DIR__ . '/../../../../../config/workflow');
+        \OldTown\Workflow\Loader\XmlWorkflowFactory::addDefaultPathToWorkflows(__DIR__ . '/../../../../../config/workflow');
 
         $wf = new BasicWorkflow('johndoe');
         $id = $wf->initialize('holiday', 1, null);
