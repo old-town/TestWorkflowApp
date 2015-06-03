@@ -21,7 +21,7 @@ class WorkflowController extends AbstractActionController
         \OldTown\Workflow\Loader\XmlWorkflowFactory::addDefaultPathToWorkflows(__DIR__ . '/../../../../../config/workflow');
 
         $wf = new BasicWorkflow('johndoe');
-        $id = $wf->initialize('holiday', 1, null);
+        $id = $wf->initialize('example', 1, null);
 
 
 
