@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE workflow PUBLIC "-//OpenSymphony Group//DTD OSWorkflow 2.6//EN" "http://www.opensymphony.com/osworkflow/workflow_2_8.dtd">
 <workflow>
+    <meta name="lastModified">Sun Dec 17 16:57:01 ART 2006</meta>
+    <meta name="created">Sun Dec 17 16:55:59 ART 2006</meta>
+    <meta name="generator">OSWOrkflow Designer</meta>
+
+    <registers>
+        <register type="class" variable-name="log">
+            <arg name="class.name">com.opensymphony.workflow.util.LogRegister
+            </arg>
+            <arg name="addInstanceId">true
+            </arg>
+        </register>
+    </registers>
+
 	<initial-actions>
 		<action id="100" name="Start Workflow">
 			<restrict-to>
