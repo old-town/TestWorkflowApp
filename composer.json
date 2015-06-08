@@ -9,10 +9,11 @@
   ],
   "homepage": "http://framework.zend.com/",
   "require": {
-    "php": ">=5.3",
-    "zendframework/zendframework": "~2.4",
+    "php": ">=5.5",
+    "zendframework/zendframework": "*",
     "old-town/log": "dev-dev",
     "old-town/workflow": "dev-dev"
+
   },
   "repositories": [
     {
