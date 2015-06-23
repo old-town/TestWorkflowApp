@@ -27,12 +27,12 @@ class WorkflowController extends AbstractActionController
         $workflowDescriptor = $wf->getWorkflowDescriptor('example');
 
 
-        $dom = new \DOMDocument();
-        $workflowElement = $workflowDescriptor->writeXml($dom);
+       // $dom = new \DOMDocument();
+        $workflowElement = $workflowDescriptor->writeXml();
 
 
-//        echo $dom->saveXML($workflowElement);
-//        die();
+        echo $workflowElement->saveXML();
+        die();
 
         return new ViewModel();
     }
