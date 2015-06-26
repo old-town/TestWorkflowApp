@@ -7,10 +7,8 @@
 
     <registers>
         <register type="class" variable-name="log">
-            <arg name="class.name">com.opensymphony.workflow.util.LogRegister
-            </arg>
-            <arg name="addInstanceId">true
-            </arg>
+            <arg name="class.name">\OldTown\Workflow\Util\LogRegister</arg>
+            <arg name="addInstanceId">true</arg>
         </register>
     </registers>
 

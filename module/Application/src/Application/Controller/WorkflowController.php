@@ -31,8 +31,6 @@ class WorkflowController extends AbstractActionController
         $workflowElement = $workflowDescriptor->writeXml();
 
 
-        echo $workflowElement->saveXML();
-        die();
 
         return new ViewModel();
     }

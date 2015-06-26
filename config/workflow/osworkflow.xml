@@ -1,5 +1,5 @@
 <osworkflow>
-    <persistence class="com.opensymphony.workflow.spi.memory.MemoryWorkflowStore">
+    <persistence class="\OldTown\Workflow\Spi\Memory\MemoryWorkflowStore">
         <property key="resource" value="workflows.xml"/>
         <property key="resource1" value="workflows.xml"/>
     </persistence>
