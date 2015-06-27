@@ -17,7 +17,7 @@
 			<restrict-to>
 				<conditions type="AND">
 					<condition type="beanshell">
-						<arg name="script">true</arg>
+						<arg name="script">${descriptor.workflowName}</arg>
 					</condition>
 					<condition type="class">
 						<arg name="class.name">com.opensymphony.workflow.util.OSUserGroupCondition</arg>
