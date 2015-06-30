@@ -70,14 +70,14 @@
                         </conditions>
                     </restrict-to>
                     <pre-functions>
-                        <function type="beanshell">
+                        <function type="phpshell">
                             <arg name="script">
-                                String caller = context.getCaller();
-                                propertySet.setString("caller", caller);
-                                boolean test = true;
-                                String yuck = null;
-                                String blah = "987654321";
-                                System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+                                $caller = $context->getCaller();
+                                $propertySet->setString("caller", $caller);
+                                $test = true;
+                                $yuck = null;
+                                $blah = "987654321";
+                                print_r('$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$');
                             </arg>
                         </function>
                     </pre-functions>
