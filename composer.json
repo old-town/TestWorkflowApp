@@ -15,6 +15,7 @@
     "old-town/workflow": "dev-dev"
   },
   "require-dev": {
+    "ext-mbstring": "*",
     "fabpot/php-cs-fixer": "*@dev",
     "phpunit/phpunit": "4.7.6",
     "zendframework/zend-loader": "*",
