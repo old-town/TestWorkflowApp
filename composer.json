@@ -2,7 +2,7 @@
   "name": "zendframework/skeleton-application",
   "description": "Skeleton Application for ZF2",
   "license": "BSD-3-Clause",
-  "minimum-stability": "dev",
+  "minimum-stability": "alpha",
   "keywords": [
     "framework",
     "zf2"
@@ -12,20 +12,16 @@
     "php": ">=5.5",
     "zendframework/zendframework": "*",
     "old-town/log": "dev-dev",
-    "old-town/workflow": "dev-dev"
+    "old-town/workflow": "dev-dev",
+    "old-town/propertyset": "dev-dev"
   },
   "require-dev": {
     "ext-mbstring": "*",
     "fabpot/php-cs-fixer": "*@dev",
-    "phpunit/phpunit": "4.7.6",
+    "phpunit/phpunit": "*@dev",
     "zendframework/zend-loader": "*",
-    "satooshi/php-coveralls": "0.6.1",
-    "symfony/yaml": "2.1.13",
-    "symfony/console": "~2.3",
-    "symfony/config": "2.1.13",
-    "symfony/dependency-injection": "2.1.13",
-    "symfony/stopwatch": "~2.5",
-    "behat/behat": "2.5.4"
+    "satooshi/php-coveralls": "v1.0.0-alpha1",
+    "behat/behat": "*@dev"
   },
   "repositories": [
     {
@@ -39,6 +35,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:old-town/old-town-log.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:onema/php-coveralls.git"
     }
   ]
 }
