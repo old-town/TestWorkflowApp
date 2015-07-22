@@ -21,7 +21,7 @@
     "phpunit/phpunit": "*@dev",
     "zendframework/zend-loader": "*",
     "satooshi/php-coveralls": "dev-master",
-    "behat/behat": "*@dev"
+    "behat/behat": "~3.0"
   },
   "repositories": [
     {
