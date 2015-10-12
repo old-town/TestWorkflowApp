@@ -24,7 +24,8 @@
     "satooshi/php-coveralls": "dev-master",
     "behat/behat": "~3.0",
     "vipsoft/code-coverage-extension": "~3@dev",
-    "internations/http-mock": "dev-master"
+    "internations/http-mock": "dev-master",
+    "ramsey/uuid" : "~3.0.0"
   },
   "repositories": [
     {
