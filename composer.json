@@ -13,7 +13,8 @@
     "zendframework/zendframework": "*",
     "old-town/log": "dev-dev",
     "old-town/workflow": "dev-dev",
-    "old-town/propertyset": "dev-dev"
+    "old-town/propertyset": "dev-dev",
+    "old-town/workflow-designer-client": "dev-dev"
   },
   "require-dev": {
     "ext-mbstring": "*",
@@ -39,6 +40,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:old-town/old-town-log.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:old-town/workflow-designer-client.git"
     },
     {
       "type": "vcs",
