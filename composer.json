@@ -14,7 +14,8 @@
     "old-town/log": "dev-dev",
     "old-town/workflow": "dev-dev",
     "old-town/propertyset": "dev-dev",
-    "old-town/workflow-designer-client": "dev-dev"
+    "old-town/workflow-designer-client": "dev-dev",
+    "old-town/workflow-designer-js": "dev-dev"
   },
   "require-dev": {
     "ext-mbstring": "*",
