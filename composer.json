@@ -10,7 +10,7 @@
   "homepage": "http://framework.zend.com/",
   "require": {
     "php": ">=5.5",
-    "zendframework/zendframework": "*",
+    "zendframework/zendframework": "~2.4.0",
     "old-town/log": "dev-dev",
     "old-town/workflow": "dev-dev",
     "old-town/propertyset": "dev-dev",
