@@ -15,7 +15,6 @@
     "old-town/workflow": "dev-dev",
     "old-town/propertyset": "dev-dev",
     "old-town/workflow-designer-client": "dev-dev",
-    "old-town/workflow-designer-js": "dev-dev",
     "widmogrod/zf2-assetic-module": "dev-master"
   },
   "require-dev": {
@@ -57,10 +56,6 @@
     {
       "type": "vcs",
       "url": "git@github.com:old-town/http-mock.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:old-town/workflow-designer-js.git"
     }
   ]
 }
