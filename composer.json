@@ -26,6 +26,9 @@
     "zendframework/zend-loader": "2.5.1",
     "satooshi/php-coveralls": "dev-master",
     "behat/behat": "~3.0",
+    "behat/mink-extension": "~2.1",
+    "behat/mink-goutte-driver": "~1.1",
+    "behat/mink-selenium2-driver": "~1.2",
     "vipsoft/code-coverage-extension": "~3@dev",
     "internations/http-mock": "dev-master",
     "ramsey/uuid" : "~3.0.0"
