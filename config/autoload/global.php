@@ -15,6 +15,7 @@ return array(
     'assetic_configuration' => [ //настройки модуля assetic (загрузка клиентских файлов)
         'debug' => true,
         'cacheEnabled' => false,
+        'writeIfChanged' => false,
         'cachePath' => __DIR__ . '/../../data/cache',
         'webPath' => __DIR__ . '/../../public/assets',//папка, куда assetic сохраняет клиентские файлы из всех модулей.
         ///'basePath' => '/contracts/assets',
