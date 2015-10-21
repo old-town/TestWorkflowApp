@@ -10,8 +10,11 @@ return array(
         'ZF\\ContentValidation',
         'ZF\\Rest',
 
+
+
         'AsseticBundle',
         'Application',
+        'OldTown\\Workflow\\Designer\\Server',
         'OldTown\\Workflow\\Designer\\Client'
     ),
 
