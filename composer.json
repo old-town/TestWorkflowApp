@@ -56,6 +56,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:old-town/http-mock.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:old-town/workflow-designer-server.git"
     }
   ]
 }
