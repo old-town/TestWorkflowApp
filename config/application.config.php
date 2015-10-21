@@ -2,6 +2,14 @@
 return array(
     // This should be an array of module namespaces used in the application.
     'modules' => array(
+        'ZF\\ApiProblem',
+        'ZF\\Configuration',
+        'ZF\\MvcAuth',
+        'ZF\\Hal',
+        'ZF\\ContentNegotiation',
+        'ZF\\ContentValidation',
+        'ZF\\Rest',
+
         'AsseticBundle',
         'Application',
         'OldTown\\Workflow\\Designer\\Client'
