@@ -32,6 +32,15 @@
                 </function>
             </pre-functions>
             <results>
+                <result old-status="Finished" status="Underway" step="1" >
+                    <conditions type="AND">
+                        <condition type="beanshell">
+                            <arg name="script">
+                                propertySet.getString("caller").equals("test")
+                            </arg>
+                        </condition>
+                    </conditions>
+                </result>
                 <unconditional-result old-status="Finished" status="Underway" step="1" owner="${caller}"/>
             </results>
         </action>
