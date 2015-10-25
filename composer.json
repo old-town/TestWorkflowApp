@@ -62,6 +62,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:old-town/workflow-designer-server.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:old-town/workflow-doctrine.git"
     }
   ]
 }
