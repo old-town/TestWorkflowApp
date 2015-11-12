@@ -41,7 +41,7 @@
                         </condition>
                     </conditions>
                 </result>
-                <unconditional-result old-status="Finished" status="Underway" step="1" owner="${caller}"/>
+                <unconditional-result old-status="Finished" status="Underway" step="2" owner="${caller}"/>
             </results>
         </action>
     </initial-actions>
