@@ -493,6 +493,7 @@
         </split>
         <split id="2">
             <unconditional-result old-status="Finished" status="Queued" step="2"/>
+            <unconditional-result old-status="Finished" status="Underway"  step="7"/>
         </split>
     </splits>
     <joins>
