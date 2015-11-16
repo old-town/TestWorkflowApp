@@ -17,6 +17,7 @@
     "old-town/workflow-designer-server":  "dev-dev",
     "old-town/workflow-designer-client": "dev-dev",
     "old-town/workflow-doctrine": "dev-dev",
+    "old-town/workflow-zf2":  "dev-dev",
     "widmogrod/zf2-assetic-module": "1.*"
   },
   "require-dev": {
@@ -66,6 +67,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:old-town/workflow-doctrine.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:old-town/workflow-zf2.git"
     }
   ]
 }
