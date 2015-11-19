@@ -7,7 +7,45 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
+use OldTown\Workflow\Spi\Memory\MemoryWorkflowStore;
+use OldTown\Workflow\Loader\ArrayWorkflowFactory;
+use OldTown\Workflow\Util\DefaultVariableResolver;
+use OldTown\Workflow\Basic\BasicWorkflow;
+
+
 return array(
+
+    'workflow_zf2'    => [
+        'configurations' => [
+            'default' => [
+                'persistence' => [
+                    'name' => MemoryWorkflowStore::class,
+                    'options' => [
+                    ]
+                ],
+                'factory' => [
+                    'name' => ArrayWorkflowFactory::class,
+                    'options' => [
+                        'reload' => true,
+                        'workflows' => [
+                            'test' => [
+                                'location' =>  __DIR__ . '/../../../config/workflow/example.xml'
+                            ]
+                        ]
+                    ]
+                ],
+                'resolver' => DefaultVariableResolver::class,
+            ]
+        ],
+        'managers' => [
+            'manager_for_test' => [
+                'configuration' => 'default',
+                'name' => BasicWorkflow::class
+            ]
+        ]
+    ],
+
+
     'console' => array(
         'router' => array(
             'routes' => array(
