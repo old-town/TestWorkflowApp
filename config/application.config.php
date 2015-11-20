@@ -15,6 +15,7 @@ return array(
         'AsseticBundle',
         'Application',
         'OldTown\\Workflow\\ZF2',
+        'OldTown\\Workflow\\ZF2\View',
         'OldTown\\Workflow\\Designer\\Server',
         'OldTown\\Workflow\\Designer\\Client'
     ),
