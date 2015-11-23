@@ -34,9 +34,9 @@
             <results>
                 <result old-status="Finished" status="Underway" step="1" >
                     <conditions type="AND">
-                        <condition type="beanshell">
+                        <condition type="phpshell">
                             <arg name="script">
-                                propertySet.getString("caller").equals("test")
+
                             </arg>
                         </condition>
                     </conditions>
