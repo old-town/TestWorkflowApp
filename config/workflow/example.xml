@@ -14,7 +14,7 @@
     </registers>
 
     <initial-actions>
-        <action id="100" name="Start Workflow">
+        <action id="100" name="Start_Workflow">
             <restrict-to>
                 <conditions type="AND">
                     <condition type="phpshell">
