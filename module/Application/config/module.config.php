@@ -11,7 +11,7 @@ use OldTown\Workflow\Spi\Memory\MemoryWorkflowStore;
 use OldTown\Workflow\Loader\ArrayWorkflowFactory;
 use OldTown\Workflow\Util\DefaultVariableResolver;
 use OldTown\Workflow\Basic\BasicWorkflow;
-
+use Application\Listener\TestViewHandler;
 
 return array(
 
@@ -41,6 +41,14 @@ return array(
             'manager_for_test' => [
                 'configuration' => 'default',
                 'name' => BasicWorkflow::class
+            ]
+        ]
+    ],
+    'workflow_zf2_view' => [
+        'view' => [
+            'test' => [
+                'template' => 'application/test-zf2-view/test-view',
+                'listener' => TestViewHandler::class
             ]
         ]
     ],
