@@ -9,12 +9,24 @@
 
 namespace Application\Listener;
 
+use \OldTown\Workflow\ZF2\View\Handler\AbstractHandler;
+
+
 /**
  * Class TestViewHandler
  *
  * @package Application\Listener
  */
-class TestViewHandler
+class TestViewHandler extends AbstractHandler
 {
+    /**
+     * @return array
+     */
+    public function dispatch()
+    {
+        return [
+            'frfrfrf' => 'dedededed'
+        ];
+    }
 
 }

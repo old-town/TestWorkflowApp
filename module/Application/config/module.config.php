@@ -48,8 +48,13 @@ return array(
         'view' => [
             'test' => [
                 'template' => 'application/test-zf2-view/test-view',
-                'listener' => TestViewHandler::class
+                'handler' => TestViewHandler::class
             ]
+        ]
+    ],
+    'workflow_zf2_view_handler' => [
+        'invokables'         => [
+            TestViewHandler::class => TestViewHandler::class
         ]
     ],
 
