@@ -10,6 +10,7 @@
 namespace Application\Listener;
 
 use \OldTown\Workflow\ZF2\View\Handler\AbstractHandler;
+use OldTown\Workflow\ZF2\View\Handler\Context\ContextInterface;
 
 
 /**
@@ -19,5 +20,17 @@ use \OldTown\Workflow\ZF2\View\Handler\AbstractHandler;
  */
 class TestViewHandler extends AbstractHandler
 {
-
+    /**
+     * Пред обработка данных
+     *
+     * @param ContextInterface $context
+     *
+     * @return array|void
+     */
+    public function dispatch(ContextInterface $context)
+    {
+        return [
+            'testData' => '!!!!!!!!!!!!!!'
+        ];
+    }
 }
