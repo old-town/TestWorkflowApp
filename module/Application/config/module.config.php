@@ -49,7 +49,7 @@ return array(
             'test' => [
                 'template' => 'application/test-zf2-view/test-view',
                 'handler' => TestViewHandler::class,
-                //'captureTo' => 'content'
+                'captureTo' => 'content'
             ]
         ]
     ],
