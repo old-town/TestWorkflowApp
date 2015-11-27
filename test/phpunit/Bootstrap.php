@@ -7,7 +7,7 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace Application\Controller;
+namespace Application\PhpUnit\Test;
 
 use Zend\Loader\AutoloaderFactory;
 use Zend\Loader\StandardAutoloader;
@@ -58,9 +58,17 @@ class Bootstrap
             AutoloaderFactory::factory([
                 ClassMapAutoloader::class => [
                     [
+                        'Application\\Module' =>  __DIR__ . '/../../module/Application/Module.php',
                         \OldTown\Workflow\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow/test/phpunit/Bootstrap.php',
                         \OldTown\Workflow\Spi\Doctrine\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-doctrine/test/phpunit/Bootstrap.php',
                         \OldTown\Workflow\ZF2\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-zf2/test/phpunit/Bootstrap.php',
+                    ]
+                ],
+                StandardAutoloader::class => [
+                    'autoregister_zf' => true,
+                    'namespaces' => [
+                        'Application\\PhpUnit\\TestData' => __DIR__ . '/_files',
+                        __NAMESPACE__ => __DIR__ . '/tests/',
                     ]
                 ]
 
