@@ -64,6 +64,8 @@ class Bootstrap
                         \OldTown\Workflow\ZF2\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-zf2/test/phpunit/Bootstrap.php',
                         \OldTown\Workflow\ZF2\View\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-zf2-view/test/phpunit/Bootstrap.php',
                         \OldTown\Workflow\ZF2\ServiceEngine\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-zf2-serviceEngine/test/phpunit/Bootstrap.php',
+                        \OldTown\Workflow\Designer\Server\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-designer-server/test/phpunit/Bootstrap.php',
+                        \OldTown\Workflow\Designer\Client\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-designer-client/test/phpunit/Bootstrap.php',
                     ]
                 ],
                 StandardAutoloader::class => [
@@ -81,6 +83,8 @@ class Bootstrap
             \OldTown\Workflow\ZF2\PhpUnit\Test\Bootstrap::init();
             \OldTown\Workflow\ZF2\View\PhpUnit\Test\Bootstrap::init();
             \OldTown\Workflow\ZF2\ServiceEngine\PhpUnit\Test\Bootstrap::init();
+            \OldTown\Workflow\Designer\Server\PhpUnit\Test\Bootstrap::init();
+            \OldTown\Workflow\Designer\Client\PhpUnit\Test\Bootstrap::init();
 
         } catch (\Exception $e) {
             $errMsg = 'Ошибка инициации автолоадеров';
