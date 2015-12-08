@@ -18,6 +18,7 @@
     "old-town/workflow-designer-client": "dev-dev",
     "old-town/workflow-doctrine": "dev-dev",
     "old-town/workflow-zf2":  "dev-dev",
+    "old-town/workflow-zf2-preDispatch":  "dev-dev",
     "old-town/workflow-zf2-view":  "dev-dev",
     "old-town/workflow-zf2-serviceEngine":  "dev-dev",
     "widmogrod/zf2-assetic-module": "1.*"
@@ -81,6 +82,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:old-town/workflow-zf2-serviceEngine.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:old-town/workflow-zf2-preDispatch.git"
     }
   ]
 }
