@@ -27,8 +27,9 @@
                 </conditions>
             </restrict-to>
             <pre-functions>
-                <function type="class">
-                    <arg name="class.name">com.opensymphony.workflow.util.Caller</arg>
+                <function type="phpshell">
+                    <!--<arg name="class.name">com.opensymphony.workflow.util.Caller</arg>-->
+                    <arg name="script">$transientVars['testValue'] = 'Проверка';</arg>
                 </function>
             </pre-functions>
             <results>

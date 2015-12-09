@@ -19,7 +19,10 @@ return array(
         'OldTown\\Workflow\\ZF2\View',
         'OldTown\Workflow\ZF2\ServiceEngine',
         'OldTown\\Workflow\\Designer\\Server',
-        'OldTown\\Workflow\\Designer\\Client'
+        'OldTown\\Workflow\\Designer\\Client',
+
+
+        'DispatchWorkflow'
     ),
 
     // These are various options for the listeners attached to the ModuleManager
