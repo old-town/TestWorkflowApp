@@ -20,7 +20,8 @@
     "old-town/workflow-zf2":  "dev-dev",
     "old-town/workflow-zf2-dispatch":  "dev-dev",
     "old-town/workflow-zf2-view":  "dev-dev",
-    "old-town/workflow-zf2-serviceEngine":  "dev-dev",
+    "old-town/workflow-zf2-service":  "dev-dev",
+    "old-town/workflow-zf2-engine":  "dev-dev",
     "widmogrod/zf2-assetic-module": "1.*"
   },
   "require-dev": {
@@ -81,11 +82,15 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:old-town/workflow-zf2-serviceEngine.git"
+      "url": "git@github.com:old-town/workflow-zf2-service.git"
     },
     {
       "type": "vcs",
       "url": "git@github.com:old-town/workflow-zf2-dispatch.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:old-town/workflow-zf2-engine.git"
     }
   ]
 }
