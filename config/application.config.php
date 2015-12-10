@@ -17,7 +17,7 @@ return array(
         'OldTown\\Workflow\\ZF2',
         'OldTown\\Workflow\\ZF2\\Dispatch',
         'OldTown\\Workflow\\ZF2\View',
-        'OldTown\Workflow\ZF2\ServiceEngine',
+        'OldTown\Workflow\ZF2\Service',
         'OldTown\\Workflow\\Designer\\Server',
         'OldTown\\Workflow\\Designer\\Client',
 
