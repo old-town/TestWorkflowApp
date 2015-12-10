@@ -9,11 +9,19 @@
 
 namespace DispatchWorkflow;
 
+use Zend\ModuleManager\Feature\DependencyIndicatorInterface;
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
 
-class Module
+class Module implements DependencyIndicatorInterface
 {
+    public function getModuleDependencies()
+    {
+        return [
+            'OldTown\\Workflow\\ZF2\\Dispatch'
+        ];
+    }
+
     public function onBootstrap(MvcEvent $e)
     {
         $eventManager        = $e->getApplication()->getEventManager();
