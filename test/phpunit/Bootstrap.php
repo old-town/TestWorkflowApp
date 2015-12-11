@@ -63,7 +63,7 @@ class Bootstrap
                         \OldTown\Workflow\Spi\Doctrine\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-doctrine/test/phpunit/Bootstrap.php',
                         \OldTown\Workflow\ZF2\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-zf2/test/phpunit/Bootstrap.php',
                         \OldTown\Workflow\ZF2\View\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-zf2-view/test/phpunit/Bootstrap.php',
-                        \OldTown\Workflow\ZF2\Service\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-zf2-servic/test/phpunit/Bootstrap.php',
+                        \OldTown\Workflow\ZF2\Service\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-zf2-service/test/phpunit/Bootstrap.php',
                         \OldTown\Workflow\Designer\Server\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-designer-server/test/phpunit/Bootstrap.php',
                         \OldTown\Workflow\Designer\Client\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-designer-client/test/phpunit/Bootstrap.php',
                     ]
