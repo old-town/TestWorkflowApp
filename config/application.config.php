@@ -12,7 +12,7 @@ return array(
 
 
 
-        //'AsseticBundle',
+        'AsseticBundle',
         'Application',
         'OldTown\\Workflow\\ZF2',
         'OldTown\\Workflow\\ZF2\\Engine',
