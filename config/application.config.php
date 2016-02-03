@@ -21,7 +21,7 @@ return array(
         'OldTown\Workflow\ZF2\Service',
         'OldTown\\Workflow\\Designer\\Server',
         'OldTown\\Workflow\\Designer\\Client',
-        'OldTown\\Workflow\\Doctrine\\ZF2\\Module',
+        'OldTown\\Workflow\\Doctrine\\ZF2',
 
 
         'DispatchWorkflow'
