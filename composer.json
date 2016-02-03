@@ -102,6 +102,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:old-town/workflow-doctrine-zf2.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:doctrine/DoctrineModule.git"
     }
   ]
 }
