@@ -106,6 +106,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:doctrine/DoctrineModule.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:doctrine/DoctrineORMModule.git"
     }
   ]
 }
