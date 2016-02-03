@@ -38,7 +38,7 @@ return array(
         ],
         'connection' => [
             'orm_default' => [
-                'driverClass' => 'Doctrine\DBAL\Driver\PDOPgSql\Driver',
+                'driverClass' => 'Doctrine\DBAL\Driver\PDOMySql\Driver',
                 'params' => [
 
                 ]
