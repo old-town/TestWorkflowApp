@@ -23,9 +23,9 @@
     "old-town/workflow-zf2-service":  "dev-dev",
     "old-town/workflow-doctrine-zf2":  "dev-dev",
     "old-town/workflow-zf2-engine":  "dev-dev",
-    "doctrine/doctrine-orm-module": "1.*",
+    "doctrine/doctrine-orm-module": "~1.0",
 
-    "widmogrod/zf2-assetic-module": "1.*"
+    "widmogrod/zf2-assetic-module": "1.0"
   },
   "require-dev": {
     "ext-mbstring": "*",
