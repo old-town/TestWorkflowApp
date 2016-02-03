@@ -11,7 +11,8 @@ return array(
         'ZF\\Rest',
 
 
-
+        'DoctrineModule',
+        'DoctrineORMModule',
         'AsseticBundle',
         'Application',
         'OldTown\\Workflow\\ZF2',

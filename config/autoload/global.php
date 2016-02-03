@@ -21,5 +21,40 @@ return array(
         ///'basePath' => '/contracts/assets',
         'routes' => [
         ],
-    ]
+    ],
+
+
+
+    'doctrine' => [
+        'configuration' => [
+            'orm_default' => [
+            ]
+        ],
+        'eventmanager' => [
+            'orm_default' => [
+            ],
+        ],
+        'migrations_configuration' => [
+        ],
+        'connection' => [
+            'orm_default' => [
+                'driverClass' => 'Doctrine\DBAL\Driver\PDOPgSql\Driver',
+                'params' => [
+
+                ]
+            ],
+        ],
+        'driver' => [
+            'orm_default' => [
+                'drivers' => [
+                    'OldTown\\Workflow\\Spi\\Doctrine\\Entity' => 'WorkflowDoctrineEntity',
+                ],
+            ],
+        ],
+    ],
+
+
+
+
+
 );
