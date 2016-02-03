@@ -11,7 +11,6 @@
   "require": {
     "php": ">=5.5",
     "zendframework/zendframework": "~2.4.0",
-    "old-town/crc": "dev-dev",
     "old-town/log": "dev-dev",
     "old-town/workflow": "dev-dev",
     "old-town/propertyset": "dev-dev",
@@ -23,6 +22,8 @@
     "old-town/workflow-zf2-view":  "dev-dev",
     "old-town/workflow-zf2-service":  "dev-dev",
     "old-town/workflow-zf2-engine":  "dev-dev",
+    "doctrine/doctrine-orm-module": "0.*",
+
     "widmogrod/zf2-assetic-module": "1.*"
   },
   "require-dev": {
