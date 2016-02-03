@@ -23,7 +23,7 @@
     "old-town/workflow-zf2-service":  "dev-dev",
     "old-town/workflow-doctrine-zf2":  "dev-dev",
     "old-town/workflow-zf2-engine":  "dev-dev",
-    "doctrine/doctrine-orm-module": "~1.0",
+    "doctrine/doctrine-orm-module": "0.9.2",
 
     "widmogrod/zf2-assetic-module": "1.0"
   },
@@ -102,14 +102,6 @@
     {
       "type": "vcs",
       "url": "git@github.com:old-town/workflow-doctrine-zf2.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:doctrine/DoctrineModule.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:doctrine/DoctrineORMModule.git"
     }
   ]
 }
