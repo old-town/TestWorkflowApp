@@ -2,6 +2,10 @@
 return array(
     // This should be an array of module namespaces used in the application.
     'modules' => array(
+        'DoctrineModule',
+        'DoctrineORMModule',
+
+
         'ZF\\ApiProblem',
         'ZF\\Configuration',
         'ZF\\MvcAuth',
@@ -11,8 +15,7 @@ return array(
         'ZF\\Rest',
 
 
-        'DoctrineModule',
-        'DoctrineORMModule',
+
         'AsseticBundle',
         'Application',
         'OldTown\\Workflow\\ZF2',

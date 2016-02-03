@@ -23,7 +23,7 @@
     "old-town/workflow-zf2-service":  "dev-dev",
     "old-town/workflow-doctrine-zf2":  "dev-dev",
     "old-town/workflow-zf2-engine":  "dev-dev",
-    "doctrine/doctrine-orm-module": "0.*",
+    "doctrine/doctrine-orm-module": "*",
 
     "widmogrod/zf2-assetic-module": "1.*"
   },
