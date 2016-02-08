@@ -61,10 +61,6 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:onema/php-coveralls.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:old-town/http-mock.git"
     },
     {
@@ -102,6 +98,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:old-town/workflow-doctrine-zf2.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:old-town/php-coveralls.git"
     }
   ]
 }
