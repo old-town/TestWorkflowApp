@@ -12,7 +12,7 @@ namespace Application\PhpUnit\Test;
 
 use Zend\Test\PHPUnit\Controller\AbstractHttpControllerTestCase;
 use Application\PhpUnit\TestData\TestPaths;;
-use OldTown\Workflow\ZF2\Service\Workflow;
+use OldTown\Workflow\ZF2\ServiceEngine\Workflow;
 use OldTown\Workflow\ZF2\Event\WorkflowEvent;
 
 

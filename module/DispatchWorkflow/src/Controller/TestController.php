@@ -10,7 +10,7 @@
 namespace DispatchWorkflow\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
-use OldTown\Workflow\ZF2\Service\Workflow\TransitionResult;
+use OldTown\Workflow\ZF2\ServiceEngine\Workflow\TransitionResult;
 
 
 /**
