@@ -26,6 +26,7 @@ return array(
         'OldTown\\Workflow\\Designer\\Server',
         'OldTown\\Workflow\\Designer\\Client',
         'OldTown\\Workflow\\Doctrine\\ZF2',
+        'OldTown\\Workflow\\ZF2\\Toolkit',
 
 
         'DispatchWorkflow'

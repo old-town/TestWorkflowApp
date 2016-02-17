@@ -48,6 +48,7 @@ return array(
             'orm_default' => [
                 'drivers' => [
                     'OldTown\\Workflow\\Spi\\Doctrine\\Entity' => 'WorkflowDoctrineEntity',
+                    'OldTown\\Workflow\\ZF2\\Toolkit\\Entity' => 'entityToolkit'
                 ],
             ],
         ],
