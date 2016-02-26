@@ -63,7 +63,6 @@ class Bootstrap
                         \OldTown\Workflow\Spi\Doctrine\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-doctrine/test/phpunit/Bootstrap.php',
                         \OldTown\Workflow\Doctrine\ZF2\PhpUnit\Test\Bootstrap::class => __DIR__ .  '/../../vendor/old-town/workflow-doctrine-zf2/test/phpunit/Bootstrap.php',
                         \OldTown\Workflow\ZF2\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-zf2/test/phpunit/Bootstrap.php',
-                        \OldTown\Workflow\ZF2\View\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-zf2-view/test/phpunit/Bootstrap.php',
                         \OldTown\Workflow\ZF2\Service\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-zf2-service/test/phpunit/Bootstrap.php',
                         \OldTown\Workflow\ZF2\Dispatch\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-zf2-dispatch/test/phpunit/Bootstrap.php',
                         \OldTown\Workflow\Designer\Server\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-designer-server/test/phpunit/Bootstrap.php',
@@ -84,7 +83,6 @@ class Bootstrap
             \OldTown\Workflow\PhpUnit\Test\Bootstrap::init();
             \OldTown\Workflow\Spi\Doctrine\PhpUnit\Test\Bootstrap::init();
             \OldTown\Workflow\ZF2\PhpUnit\Test\Bootstrap::init();
-            \OldTown\Workflow\ZF2\View\PhpUnit\Test\Bootstrap::init();
             \OldTown\Workflow\ZF2\Service\PhpUnit\Test\Bootstrap::init();
             \OldTown\Workflow\Designer\Server\PhpUnit\Test\Bootstrap::init();
             \OldTown\Workflow\Designer\Client\PhpUnit\Test\Bootstrap::init();
