@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<phpunit
+        bootstrap="./test/phpunit/Bootstrap.php"
+        colors="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        verbose="true"
+        stopOnFailure="false"
+        processIsolation="false"
+        backupGlobals="false"
+        syntaxCheck="true"
+>
+    <listeners>
+        <listener class="\OldTown\Workflow\Spi\Doctrine\PhpUnit\Utils\EntityManagerListener" file="./vendor/old-town/workflow-doctrine/test/phpunit/utils/EntityManagerListener.php">
+            <arguments>
+                <array>
+                    <!-- Конфиг соеденения для тестов-->
+                    <element key="connectionConfig">
+                        <array>
+                            <element key="driver">
+                                <string>pdo_mysql</string>
+                            </element>
+                            <element key="params">
+                                <array>
+                                    <element key="host">
+                                        <string>127.0.0.1</string>
+                                    </element>
+                                    <element key="port">
+                                        <string>23306</string>
+                                    </element>
+                                    <element key="user">
+                                        <string>wf_doctrine_test</string>
+                                    </element>
+                                    <element key="password">
+                                        <string>wf_doctrine_test</string>
+                                    </element>
+                                    <element key="dbname">
+                                        <string>wf_doctrine_test</string>
+                                    </element>
+                                </array>
+                            </element>
+
+                        </array>
+                    </element>
+                </array>
+            </arguments>
+        </listener>
+
+
+        <listener class="\OldTown\Workflow\Doctrine\ZF2\PhpUnit\Utils\InitTestAppListener" file="./vendor/old-town/workflow-doctrine-zf2/test/phpunit/utils/InitTestAppListener.php">
+            <arguments>
+                <!-- Имя соеденения - которое можно получить через сервис doctrine.connection.ИМЯ_СОЕДЕНЕНИЯ -->
+                <string>test</string>
+                <!-- Используемый драйвер -->
+                <string>\Doctrine\DBAL\Driver\PDOMySql\Driver</string>
+                <array>
+                    <element key="host">
+                        <string>127.0.0.1</string>
+                    </element>
+                    <element key="port">
+                        <string>23306</string>
+                    </element>
+                    <element key="user">
+                        <string>wf_doctrine_test</string>
+                    </element>
+                    <element key="password">
+                        <string>wf_doctrine_test</string>
+                    </element>
+                    <element key="dbname">
+                        <string>wf_doctrine_test</string>
+                    </element>
+                </array>
+            </arguments>
+        </listener>
+
+        <listener class="\OldTown\Workflow\ZF2\Toolkit\PhpUnit\Utils\InitTestAppListener" file="./vendor/old-town/workflow-doctrine-zf2/test/phpunit/utils/InitTestAppListener.php">
+            <arguments>
+                <!-- Имя соеденения - которое можно получить через сервис doctrine.connection.ИМЯ_СОЕДЕНЕНИЯ -->
+                <string>test</string>
+                <!-- Используемый драйвер -->
+                <string>\Doctrine\DBAL\Driver\PDOMySql\Driver</string>
+                <array>
+                    <element key="host">
+                        <string>127.0.0.1</string>
+                    </element>
+                    <element key="port">
+                        <string>23306</string>
+                    </element>
+                    <element key="user">
+                        <string>wf_doctrine_test</string>
+                    </element>
+                    <element key="password">
+                        <string>wf_doctrine_test</string>
+                    </element>
+                    <element key="dbname">
+                        <string>wf_doctrine_test</string>
+                    </element>
+                </array>
+            </arguments>
+        </listener>
+
+
+    </listeners>
+
+</phpunit>

@@ -2,7 +2,34 @@
 return array(
     // This should be an array of module namespaces used in the application.
     'modules' => array(
+        'DoctrineModule',
+        'DoctrineORMModule',
+
+
+        'ZF\\ApiProblem',
+        'ZF\\Configuration',
+        'ZF\\MvcAuth',
+        'ZF\\Hal',
+        'ZF\\ContentNegotiation',
+        'ZF\\ContentValidation',
+        'ZF\\Rest',
+
+
+
+        'AsseticBundle',
         'Application',
+        'OldTown\\Workflow\\ZF2',
+        'OldTown\\Workflow\\ZF2\\Engine',
+        'OldTown\\Workflow\\ZF2\\Dispatch',
+        'OldTown\\Workflow\\ZF2\View',
+        'OldTown\Workflow\ZF2\Service',
+        'OldTown\\Workflow\\Designer\\Server',
+        'OldTown\\Workflow\\Designer\\Client',
+        'OldTown\\Workflow\\Doctrine\\ZF2',
+        'OldTown\\Workflow\\ZF2\\Toolkit',
+
+
+        'DispatchWorkflow'
     ),
 
     // These are various options for the listeners attached to the ModuleManager
