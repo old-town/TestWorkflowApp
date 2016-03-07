@@ -11,34 +11,35 @@
   "require": {
     "php": ">=5.5",
     "zendframework/zendframework": "~2.4.0",
-    "old-town/log": "dev-dev",
-    "old-town/workflow": "dev-dev",
-    "old-town/propertyset": "dev-dev",
-    "old-town/workflow-designer-server":  "dev-dev",
-    "old-town/workflow-designer-client": "dev-dev",
-    "old-town/workflow-doctrine": "dev-dev",
-    "old-town/workflow-zf2":  "dev-dev",
-    "old-town/workflow-zf2-dispatch":  "dev-dev",
-    "old-town/workflow-zf2-service":  "dev-dev",
-    "old-town/workflow-doctrine-zf2":  "dev-dev",
-    "old-town/workflow-zf2-toolkit":  "dev-dev",
-    "doctrine/doctrine-orm-module": "0.9.2",
+    "old-town/log": "^0.1.0",
+    "old-town/workflow": "^0.1.0",
+    "old-town/propertyset": "^0.1.0",
+    "old-town/workflow-designer-server":  "^0.1.0",
+    "old-town/workflow-designer-client": "^0.1.0",
+    "old-town/workflow-doctrine": "^0.1.0",
+    "old-town/workflow-zf2":  "^0.1.0",
+    "old-town/workflow-zf2-dispatch":  "^0.1.0",
+    "old-town/workflow-zf2-service":  "^0.1.0",
+    "old-town/workflow-doctrine-zf2":  "^0.1.0",
+    "old-town/workflow-zf2-toolkit":  "^0.1.0",
 
-    "widmogrod/zf2-assetic-module": "1.*"
+    "doctrine/doctrine-orm-module": "~0.9.0",
+
+    "widmogrod/zf2-assetic-module": "~1.5.0"
   },
   "require-dev": {
     "ext-mbstring": "*",
-    "fabpot/php-cs-fixer": "1.9.1",
-    "phpunit/phpunit": "~4.8",
-    "phpunit/phpcov": "2.0.1",
-    "zendframework/zend-loader": "2.5.1",
-    "satooshi/php-coveralls": "dev-master",
-    "behat/behat": "~3.0",
-    "behat/mink-extension": "~2.1",
-    "behat/mink-goutte-driver": "~1.1",
-    "behat/mink-selenium2-driver": "~1.2",
-    "vipsoft/code-coverage-extension": "~3@dev",
-    "internations/http-mock": "dev-master",
+    "fabpot/php-cs-fixer": "~1.11.0",
+    "phpunit/phpunit": "~4.8.0",
+    "phpunit/phpcov": "~2.0.0",
+    "zendframework/zend-loader": "2.4.0",
+    "satooshi/php-coveralls": "~1.0.0",
+    "behat/behat": "~3.0.0",
+    "behat/mink-extension": "~2.1.0",
+    "behat/mink-goutte-driver": "~1.1.0",
+    "behat/mink-selenium2-driver": "~1.2.0",
+    "vipsoft/code-coverage-extension": "dev-master",
+    "internations/http-mock": "~0.7.0",
     "ramsey/uuid" : "~3.0.0"
   },
   "repositories": [
@@ -60,10 +61,6 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:old-town/http-mock.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:old-town/workflow-designer-server.git"
     },
     {
@@ -76,10 +73,6 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:old-town/workflow-zf2-view.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:old-town/workflow-zf2-service.git"
     },
     {
@@ -88,23 +81,11 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:old-town/workflow-zf2-engine.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:old-town/crc.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:old-town/workflow-doctrine-zf2.git"
     },
     {
       "type": "vcs",
       "url": "git@github.com:old-town/workflow-zf2-toolkit.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:old-town/php-coveralls.git"
     }
   ]
 }
