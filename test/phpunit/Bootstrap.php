@@ -68,6 +68,9 @@ class Bootstrap
                         \OldTown\Workflow\Designer\Server\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-designer-server/test/phpunit/Bootstrap.php',
                         \OldTown\Workflow\Designer\Client\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/workflow-designer-client/test/phpunit/Bootstrap.php',
                         \OldTown\Workflow\ZF2\Toolkit\PhpUnit\Test\Bootstrap::class => __DIR__ .  '/../../vendor/old-town/workflow-zf2-toolkit/test/phpunit/Bootstrap.php',
+
+
+                        \OldTown\ZF2\Test\Toolkit\PhpUnit\Test\Bootstrap::class => __DIR__ . '/../../vendor/old-town/zf2-test-toolkit/test/phpunit/Bootstrap.php',
                     ]
                 ],
                 StandardAutoloader::class => [
@@ -89,6 +92,7 @@ class Bootstrap
             \OldTown\Workflow\Doctrine\ZF2\PhpUnit\Test\Bootstrap::init();
             \OldTown\Workflow\ZF2\Dispatch\PhpUnit\Test\Bootstrap::init();
             \OldTown\Workflow\ZF2\Toolkit\PhpUnit\Test\Bootstrap::init();
+            \OldTown\ZF2\Test\Toolkit\PhpUnit\Test\Bootstrap::init();
 
         } catch (\Exception $e) {
             $errMsg = 'Ошибка инициации автолоадеров';
