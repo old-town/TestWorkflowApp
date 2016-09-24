@@ -25,7 +25,8 @@
 
     "doctrine/doctrine-orm-module": "~0.9.0",
 
-    "widmogrod/zf2-assetic-module": "~1.5.0"
+    "widmogrod/zf2-assetic-module": "~1.5.0",
+    "old-town/workflow-transaction": "dev-master"
   },
   "require-dev": {
     "ext-mbstring": "*",
